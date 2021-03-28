@@ -5,7 +5,7 @@
 
   Spin up an EC2 Instance of t2.nano family with Ubuntu Server 20.04 LTS (HVM) image.
 
-![](image1.jpg)
+![](https://github.com/olateekay/deploying-mean-stack/blob/main/Images/image1.png)
 ## Task
 In this assignment we are going to implement a simple Book Register web form using MEAN stack.
 
@@ -21,13 +21,13 @@ Node.js is a JavaScript runtime built on Chrome’s V8 JavaScript engine. Node.j
 
 `sudo apt upgrade`
 
-![ubuntu upgrade and update](image2.jpg)
+![ubuntu upgrade and update](https://github.com/olateekay/deploying-mean-stack/blob/main/Images/image2.png)
 
 *Install NodeJS*
 
 `sudo apt install -y nodejs`
 
-![Nodejs install](image3.jpg)
+![Nodejs install](https://github.com/olateekay/deploying-mean-stack/blob/main/Images/image3.png)
 
 *Step 2: Install MongoDB*
 
@@ -321,4 +321,4 @@ For this - you need to open TCP port 3300 in your AWS Web Console for your EC2 I
 
 Now you can access our Book Register web application from the Internet with a browser using Public IP address or Public DNS name.
 
-![app](image17.jpg)
+![app](https://github.com/olateekay/deploying-mean-stack/blob/main/Images/image17.png)
