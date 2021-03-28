@@ -304,9 +304,21 @@ Copy and paste the code below into `index.html` file.
 ![index.html](image15.jpg)
 
 
+Change the directory back up to ‘Books’
 
+`cd ..`
 
+Start the server by running this command:
 
+`node server.js`
 
+![node server](image16.jpg)
 
+The server is now up and running, we can connect it via port 3300. 
+we can also try and access it from the Internet.
 
+For this - you need to open TCP port 3300 in your AWS Web Console for your EC2 Instance.
+
+Now you can access our Book Register web application from the Internet with a browser using Public IP address or Public DNS name.
+
+![app](image17.jpg)
