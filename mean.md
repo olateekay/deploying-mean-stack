@@ -5,6 +5,7 @@
 
   Spin up an EC2 Instance of t2.nano family with Ubuntu Server 20.04 LTS (HVM) image.
 
+![](image1.jpg)
 ## Task
 In this assignment we are going to implement a simple Book Register web form using MEAN stack.
 
@@ -20,13 +21,13 @@ Node.js is a JavaScript runtime built on Chrome’s V8 JavaScript engine. Node.j
 
 `sudo apt upgrade`
 
-![ubuntu upgrade and update](image1.jpg)
+![ubuntu upgrade and update](image2.jpg)
 
 *Install NodeJS*
 
 `sudo apt install -y nodejs`
 
-![Nodejs install](image2.jpg)
+![Nodejs install](image3.jpg)
 
 *Step 2: Install MongoDB*
 
@@ -39,3 +40,37 @@ MongoDB stores data in flexible, JSON-like documents. Fields in a database can v
 *Install MongoDB*
 
 `sudo apt install -y mongodb`
+
+![Mongodb installation](image4.jpg)
+
+Start The server
+
+`sudo service mongodb start`
+
+Verify that the service is up and running
+
+`sudo systemctl status mongodb`
+
+![Mongodb status](image6.jpg)
+
+*Install [npm]- Node package manager.*
+
+`sudo apt install -y npm`
+
+![npm](image7.jpg)
+
+*Install ‘body-parser package*
+
+We need ‘body-parser’ package to help us process JSON files passed in requests to the server.
+
+`sudo npm install body-parser`
+
+![BodyParser](image8.jpg)
+
+Create a folder named ‘Books’
+
+`mkdir Books && cd Books`
+
+
+
+
