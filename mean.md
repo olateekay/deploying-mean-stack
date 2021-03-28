@@ -41,7 +41,7 @@ MongoDB stores data in flexible, JSON-like documents. Fields in a database can v
 
 `sudo apt install -y mongodb`
 
-![Mongodb installation](image4.jpg)
+![Mongodb installation](https://github.com/olateekay/deploying-mean-stack/blob/main/Images/image4.png)
 
 Start The server
 
@@ -51,13 +51,13 @@ Verify that the service is up and running
 
 `sudo systemctl status mongodb`
 
-![Mongodb status](image6.jpg)
+![Mongodb status](https://github.com/olateekay/deploying-mean-stack/blob/main/Images/image6.png)
 
 *Install [npm]- Node package manager.*
 
 `sudo apt install -y npm`
 
-![npm](image7.jpg)
+![npm](https://github.com/olateekay/deploying-mean-stack/blob/main/Images/image7.png)
 
 *Install ‘body-parser package*
 
@@ -65,7 +65,7 @@ We need ‘body-parser’ package to help us process JSON files passed in reques
 
 `sudo npm install body-parser`
 
-![BodyParser](image8.jpg)
+![BodyParser](https://github.com/olateekay/deploying-mean-stack/blob/main/Images/image8.png)
 
 Create a folder named ‘Books’
 
@@ -75,7 +75,7 @@ In the Books directory, Initialize npm project
 
 `npm init`
 
-![npm](image9.jpg)
+![npm](https://github.com/olateekay/deploying-mean-stack/blob/main/Images/image9.png)
 
 Add a file to it named `server.js`
 
@@ -95,7 +95,7 @@ app.listen(app.get('port'), function() {
 });
 
 
-![server.js](image10.jpg)
+![server.js](https://github.com/olateekay/deploying-mean-stack/blob/main/Images/image10.png)
 
 
 *Step 3: Install Express and set up routes to the server*
@@ -110,7 +110,7 @@ In ‘Books’ folder, create a folder named apps
 
 `mkdir apps && cd apps`
 
-![mongoose](image11.jpg)
+![mongoose](https://github.com/olateekay/deploying-mean-stack/blob/main/Images/image11.png)
 
 Create a file named `routes.js`
 
@@ -156,7 +156,7 @@ module.exports = function(app) {
   });
 };
 
-![routes.js](image12.jpg)
+![routes.js](https://github.com/olateekay/deploying-mean-stack/blob/main/Images/image12.png)
 
 
 In the ‘apps’ folder, create a folder named models
@@ -183,7 +183,7 @@ var bookSchema = mongoose.Schema( {
 var Book = mongoose.model('Book', bookSchema);
 module.exports = mongoose.model('Book', bookSchema);
 
-![book.js](image13.jpg)
+![book.js](https://github.com/olateekay/deploying-mean-stack/blob/main/Images/image13.png)
 
 
 *Step 4 - Access the routes with AngularJS*
@@ -242,7 +242,7 @@ app.controller('myCtrl', function($scope, $http) {
   };
 });
 
-![script.js](image13.jpg)
+![script.js](https://github.com/olateekay/deploying-mean-stack/blob/main/Images/image14.png)
 
 In ‘public’ folder, create a file named `index.html`
 
@@ -301,7 +301,7 @@ Copy and paste the code below into `index.html` file.
   </body>
 </html>
 
-![index.html](image15.jpg)
+![index.html](https://github.com/olateekay/deploying-mean-stack/blob/main/Images/image15.png)
 
 
 Change the directory back up to ‘Books’
@@ -312,7 +312,7 @@ Start the server by running this command:
 
 `node server.js`
 
-![node server](image16.jpg)
+![node server](https://github.com/olateekay/deploying-mean-stack/blob/main/Images/image16.png)
 
 The server is now up and running, we can connect it via port 3300. 
 we can also try and access it from the Internet.
